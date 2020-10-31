@@ -1,0 +1,12 @@
+Babel: Converter (transpilar) codigo do React para um codigo que o browser entenda.
+Webpack: Para cada tipo de arquivo (.js, .css, .png), converte o codigo de uma maneira diferente.
+Loaders: babel-loader, css-loader, image-loader.
+
+Comando para "executar o babel":
+yarn babel src/index.js --out-file public/bundle.js
+
+Comando para "executar o webpack":
+yarn webpack --mode development
+
+Comando para executar o webpack com live-reload:
+yarn webpack-dev-server --mode development
